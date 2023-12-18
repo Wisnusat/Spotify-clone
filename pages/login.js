@@ -15,7 +15,7 @@ function login({ providers }) {
             className="bg-[#18D860] text-white py-3 px-5 rounded-full hover:opacity-50 transition-opacity duration-200"
             onClick={() => signIn(provider.id, { callbackUrl: "/" })}
           >
-            Login with {provider.name}
+            Login with Spotify
           </button>
         </div>
       ))}
